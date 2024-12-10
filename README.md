@@ -16,4 +16,12 @@ Untuk mendeploy aplikasi yang dibuat ke dalam Streamlit atau Docker, dibutuhkan 
    pipreqs . --force
    ```
 
-Sumber: [geeksforgeeks](https://www.geeksforgeeks.org/how-to-create-requirements-txt-file-in-python/)
+### How to: Melihat versi python
+
+1. Buka Anaconda Prompt; aktifkan virtual environment yang digunakan untuk menjalankan aplikasi; jalankan script berikut.
+
+   ```
+   python --version
+   ```
+
+Sumber: [geeksforgeeks](https://www.geeksforgeeks.org/how-to-create-requirements-txt-file-in-python/) dan [geeksforgeeks](https://www.geeksforgeeks.org/check-the-version-of-the-python-interpreter/)
