@@ -7,11 +7,13 @@ Untuk mendeploy aplikasi yang dibuat ke dalam Streamlit atau Docker, dibutuhkan 
 1. Buka Anaconda Prompt; aktifkan virtual environment yang digunakan untuk menjalankan aplikasi; pergi ke folder aplikasi; jalankan script berikut untuk menginstall pipreqs.
 
    ```
-   $ pip install pipreqs
+   pip install pipreqs
    ```
 
 2. Eksekusikan script berikut untuk membuat file requirement.txt di dalam folder yang sama.
 
    ```
-   $ pipreqs . --force
+   pipreqs . --force
    ```
+
+Sumber: [geeksforgeeks](https://www.geeksforgeeks.org/how-to-create-requirements-txt-file-in-python/)
